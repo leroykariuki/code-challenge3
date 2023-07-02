@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    background-color: rgb(110, 93, 93);
+  }
+
+body {
+    background-color: rgb(137, 106, 84);
+}
+  
+  .movie {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .movie img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .movie-info {
+    flex: 1;
+  }
+  
+  .movie-info h2 {
+    margin: 0;
+  }
+  
+  .movie-info p {
+    margin: 5px 0;
+  }
+  
